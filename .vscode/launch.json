@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MyThread",
+            "request": "launch",
+            "mainClass": "MyThread",
+            "projectName": "DataScience_b2463018"
+        },
+        {
+            "type": "java",
             "name": "SpiralAnticlockwise",
             "request": "launch",
             "mainClass": "SpiralAnticlockwise",
