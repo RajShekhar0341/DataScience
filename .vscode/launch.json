@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SpiralAnticlockwise",
+            "request": "launch",
+            "mainClass": "SpiralAnticlockwise",
+            "projectName": "DataScience_b2463018"
+        },
+        {
+            "type": "java",
             "name": "Spiral",
             "request": "launch",
             "mainClass": "Spiral",
