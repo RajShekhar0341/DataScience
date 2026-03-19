@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TableForRoss",
+            "request": "launch",
+            "mainClass": "TableForRoss",
+            "projectName": "DataScience_b2463018"
+        },
+        {
+            "type": "java",
             "name": "MyThread",
             "request": "launch",
             "mainClass": "MyThread",
