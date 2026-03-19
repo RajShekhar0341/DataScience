@@ -1,25 +1,27 @@
 import java.util.Scanner;
 
-public class TableForRoss {
+public class PascalTriangle {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int num, count;
+        
+        System.out.print("Enter the number of rows: ");
+        int n = sc.nextInt();
 
-        // Ask Ross for input
-        System.out.print("Hi Ross! Which number table do you want to learn? ");
-        num = sc.nextInt();
+        for (int i = 0; i < n; i++) {
+            
+            // Print spaces for formatting
+            for (int j = 0; j < n - i - 1; j++) {
+                System.out.print(" ");
+            }
 
-        System.out.print("Up to which count do you want the table? ");
-        count = sc.nextInt();
+            int num = 1;
+            for (int j = 0; j <= i; j++) {
+                System.out.print(num + " ");
+                num = num * (i - j) / (j + 1);
+            }
 
-        System.out.println("\nGreat! Here is the table of " + num + ":\n");
-
-        // Loop to print table
-        for (int i = 1; i <= count; i++) {
-            System.out.println(num + " x " + i + " = " + (num * i));
+            System.out.println();
         }
-
-        System.out.println("\nKeep practicing, Ross! 😊");
 
         sc.close();
     }

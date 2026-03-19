@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PascalTriangle",
+            "request": "launch",
+            "mainClass": "PascalTriangle",
+            "projectName": "DataScience_b2463018"
+        },
+        {
+            "type": "java",
             "name": "TableForRoss",
             "request": "launch",
             "mainClass": "TableForRoss",
